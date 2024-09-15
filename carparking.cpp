@@ -5,7 +5,6 @@ int main()
 	int u_input; int amount = 0,count = 0;
 	int car=0,bus=0,ricksha=0;
 	
-	
 	// menu
 while(true){
 	cout<<"\n\n Welcome To ABC Car Parking System!!\n"<<endl;
@@ -39,6 +38,7 @@ while(true){
 	}
 	else if(u_input==3)
 	{
+		// amount function
 		if(count<=50){
 		amount = amount + 300 ;
 		count = count + 1;
@@ -55,7 +55,7 @@ while(true){
 	    cout<<"The total number of Cars = "<<car<<endl;
 		cout<<"The total number of Buses = "<<bus<<endl;
 		cout<<"The total number of Rickshaw's' = "<<ricksha<<endl;
-			cout<<"*************************************"<<"\t\tFor More info: - Visit www.xyz.com	";
+		cout<<"*************************************"<<"\t\tFor More info: - Visit www.xyz.com	";
 	}
 	else if(u_input==5)
 	{
@@ -75,3 +75,4 @@ while(true){
 }
 	return 0;
 }
+// end
